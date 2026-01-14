@@ -2,39 +2,40 @@
 
 ### Sistema testado: https://www.saucedemo.com/
 ---
-### Escopo de Testes
-Funcionalidades testadas:
-- Login
-- Carrinho de compras
-- Checkout
+##  Objetivos do Projeto
 
-Tipos de testes realizados:
-- Testes funcionais
-- Testes positivos
-- Testes negativos
-- Testes exploratórios
+- Praticar fundamentos de QA
+- Analisar requisitos e regras de negócio
+- Criar e executar casos de teste manuais
+- Registrar e documentar bugs
+- Organizar evidências e relatórios
+- Simular um fluxo real de trabalho de um QA
 
-### Casos de Teste
-Os casos de teste foram documentados em planilha, contendo:
-- Cenário
-- Caso de teste
-- Passos
-- Resultado esperado
-- Status da execução
+---
 
-📄 Arquivo:
-Suite_Casos_de_Teste.xlsx
+##  Aplicação Testada
 
-### Relatório de Bugs
-Durante a execução dos testes, foi identificado um defeito relacionado à alteração de quantidade de produtos no carrinho e o checkou com postal vode inválida.
-O bug foi documentado contendo:
-- Passos para reprodução
-- Resultado esperado
-- Resultado atual
-- Severidade
+- **Nome:** SauceDemo  
+- **URL:** https://www.saucedemo.com  
+- **Tipo:** Aplicação web de e-commerce para fins de testes  
 
-📄 Arquivo:
-Relatorio_de_Bugs.xlsx
+---
 
+##  Ferramentas Utilizadas
 
+- **Miro** – Levantamento de requisitos e fluxo do sistema  
+- **Jira** – Organização de épicos, histórias e backlog  
+- **Zephyr** – Criação de casos de teste, ciclos e plano de testes  
+- **Jam.dev** – Gravação de evidências  
+- **Markdown (GitHub)** – Documentação do projeto  
+
+---
+
+##  Documentações Disponíveis
+
+- Levantamento de requisitos
+- Casos de teste por módulo
+- Plano e ciclos de testes
+- Relatório de bugs
+- Evidências de execução
 
