@@ -9,4 +9,4 @@ Foi utilizado o Miro para:
 - Criar storyboard das telas
 
 Veja a análise no Miro:
-https://miro.com/app/board/uXjVGRMnkMc=/?share_link_id=221190944552&shareablePresentation=1
+(https://miro.com/app/board/uXjVGRMnkMc=/?share_link_id=221190944552&shareablePresentation=1)
