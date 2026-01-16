@@ -2,12 +2,12 @@
 
 **Sistema testado:** Saucedemo
 **Responsável:** Enzo Andrade
-**Data de execução:** 12 a 14 de janeiro de 2026
+**Data de execução:**  14 a 16 de janeiro de 2026
 
 **Ambiente:**
 
 * Sistema operacional: Windows 11
-* Navegador: Microsoft Edge v.136.0
+* Navegador: Google Chrome V143.0.7
 * URL: (https://www.saucedemo.com/)
 
 ---
@@ -16,9 +16,10 @@
 
 | Total de Casos de Teste | Casos Passaram | Casos Falharam | Bugs Registrados |
 | ----------------------- | -------------- | -------------- | ---------------- |
-| 25                      | 22             | 3              | 3                |
+| 15                      | 12             | 3              | 3                |
 
----
+
+
 
 ## **Resumo dos Bugs Reportados**
 
@@ -34,7 +35,7 @@
 
 **Casos por status:**
 
-* ✅ Passaram: 22
+* ✅ Passaram: 12
 * ❌ Falharam: 3
 
 **Severidade dos bugs:**
@@ -42,6 +43,11 @@
 * 🟥 Alta: 2
 * 🟨 Média: 0
 * 🟩 Baixa: 1
+---
+### **Contato**
 
+**Enzo Andrade | [LinkedIn](https://www.linkedin.com/in/enzo-andrade-4aa1b9200/) | enzoandradef.08@gmail.com**
+
+[![Enzo Andrade](https://avatars.githubusercontent.com/u/112990187?v=4&s=100)](https://github.com/EnzoAndradeF)
 
 

@@ -1,17 +1,10 @@
-# Projeto de Testes Manuais – SauceDemo
+# **Teste Manual e Documentação**
 
-### Sistema testado: https://www.saucedemo.com/
----
 ##  Objetivos do Projeto
 
-- Praticar fundamentos de QA
 - Analisar requisitos e regras de negócio
 - Criar e executar casos de teste manuais
 - Registrar e documentar bugs
-- Organizar evidências e relatórios
-- Simular um fluxo real de trabalho de um QA
-
----
 
 ##  Aplicação Testada
 
@@ -19,23 +12,14 @@
 - **URL:** https://www.saucedemo.com  
 - **Tipo:** Aplicação web de e-commerce para fins de testes  
 
----
-
-##  Ferramentas Utilizadas
-
-- **Miro** – Levantamento de requisitos e fluxo do sistema  
-- **Jira** – Organização de épicos, histórias e backlog  
-- **Zephyr** – Criação de casos de teste, ciclos e plano de testes  
-- **Jam.dev** – Gravação de evidências  
-- **Markdown (GitHub)** – Documentação do projeto  
-
----
-
-##  Documentações Disponíveis
-
-- Levantamento de requisitos
-- Casos de teste por módulo
-- Plano e ciclos de testes
-- Relatório de bugs
-- Evidências de execução
-
+## Escopo do teste
+* Autenticação de usuário
+* Catálogo de produto
+* Carrinho de compras
+* Checkout
+* Confirmação
+## Ferramentas utilizadas
+* **Miro**: Planejamento estratégico e storyboard.
+* **Jira**: Gestão de defeitos.
+* **Jam**: Captura de evidências técnicas e report de bugs.
+* **Markdown**: Escrita e estruturação da documentação técnica.

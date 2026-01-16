@@ -1,4 +1,4 @@
-# 🐞 Relatório de Bugs
+#  Relatório de Bugs
 
 **Software:** SauceDemo  
 **QA responsável:** Enzo Andrade  
@@ -13,7 +13,7 @@
 | Campo | Detalhe |
 |------|--------|
 | **ID** | BUG-001 |
-| **Descrição** | É possível ir para a tela de checkout mesmo sem adicionar produto no carrinho. |
+| **Descrição** | Quando o usuário não adiciona produtos no carrinho e clica em checkout, ele avança de página quando deveria permanecer na mesma |
 | **Severidade** | Alta |
 | **Prioridade** | Alta |
 | **Status** | Aberto |
@@ -23,30 +23,34 @@
 | Passo |
 |------|
 | 1. Estar logado no sistema com um usuário válido |
-| 2. Acessar a página **Products** |
-| 3. Acessar a página **Your Cart** clicando no ícone do carrinho |
+| 2. Acessar a página catálogo de compras |
+| 3. Acessar a página carrinho de compras clicando no ícone do carrinho |
 | 4. Clicar no botão **Checkout** |
 
 ### Resultado
 
 | Comportamento Esperado | Comportamento Obtido |
 |------------------------|---------------------|
-| Exibir mensagem de erro e permanecer na página **Your Cart** | Usuário é redirecionado para a tela de checkout |
+| Exibir mensagem de erro e permanecer na página| Usuário é redirecionado para a tela de checkout |
 
-### Ambiente
+
 
 | Ambiente |
 |---------|
 | Ambiente de homologação |
 | Desktop – Windows 11 |
-| Microsoft Edge v136.0 |
+| Google Chrome V143.0.7 |
 | SauceDemo |
 
-### Caso de Teste Relacionado
 
-| Caso de Teste |
+
+| Caso de Teste relacionado |
 |---------------|
-| CT03.07 – Checkout sem produto |
+| CT-CAR-03  |
+
+| Funcionalidade relacionado |
+|---------------|
+| Carrinho de produto  |
 
 ### Evidência
 
@@ -63,7 +67,7 @@
 | Campo | Detalhe |
 |------|--------|
 | **ID** | BUG-002 |
-| **Descrição** | Ao adicionar produto no carrinho, o usuário não consegue alterar a quantidade. |
+| **Descrição** | Quando o usuário altera a quantidade do produto no carrinho de compras, então a quantidade não é altera quando. |
 | **Severidade** | Baixa |
 | **Prioridade** | Média |
 | **Status** | Aberto |
@@ -73,10 +77,10 @@
 | Passo |
 |------|
 | 1. Estar logado no sistema com um usuário válido |
-| 2. Acessar a página **Products** |
+| 2. Acessar a página catálogo de produto |
 | 3. Adicionar produto ao carrinho |
-| 4. Acessar a página **Your Cart** |
-| 5. Tentar alterar a quantidade do produto |
+| 4. Acessar a página carrinho de compras |
+| 5. Alterar a quantidade do produto |
 
 ### Resultado
 
@@ -84,21 +88,22 @@
 |------------------------|---------------------|
 | Quantidade do produto é alterada com sucesso | Quantidade não é alterada |
 
-### Ambiente
-
 | Ambiente |
 |---------|
 | Ambiente de homologação |
-| Windows 11 |
-| Microsoft Edge v136.0 |
+| Desktop – Windows 11 |
+| Google Chrome V143.0.7 |
 | SauceDemo |
 
-### Caso de Teste Relacionado
 
-| Caso de Teste |
+
+| Caso de Teste relacionado |
 |---------------|
-| CT03.03 – Alterar quantidade de produtos do carrinho |
+| CT-CAR-02  |
 
+| Funcionalidade relacionado |
+|---------------|
+| Carrinho de produto  |
 ### Evidência
 
 | Link |
@@ -114,7 +119,7 @@
 | Campo | Detalhe |
 |------|--------|
 | **ID** | BUG-003 |
-| **Descrição** | O sistema prossegue com o checkout mesmo após o preenchimento de informações inválidas. |
+| **Descrição** | Quando o usuário preenche as informações do do checkout e insere caracteres indevidos o checkout é validado quando deveria acusr o erro  . |
 | **Severidade** | Alta |
 | **Prioridade** | Alta |
 | **Status** | Aberto |
@@ -124,12 +129,12 @@
 | Passo |
 |------|
 | 1. Estar logado no sistema |
-| 2. Acessar a página **Products** |
+| 2. Acessar a página catálogo de produto |
 | 3. Adicionar produto ao carrinho |
-| 4. Acessar **Your Cart** |
+| 4. Acessar Carrinho de compras |
 | 5. Clicar em **Checkout** |
-| 6. Inserir letras nos campos **Nome** e **Sobrenome** |
-| 7. Inserir caracteres não numéricos no campo **CEP** |
+| 6. Inserir caracteres diferentes de do tipo letra nos campos **Nome** e **Sobrenome** |
+| 7. Inserir caracteres diferentes do tipo número no campo **caica postal** |
 
 ### Resultado
 
@@ -137,21 +142,22 @@
 |------------------------|---------------------|
 | Exibir mensagem de erro e permanecer na página | Usuário é redirecionado para o resumo da compra |
 
-### Ambiente
-
 | Ambiente |
 |---------|
 | Ambiente de homologação |
-| Windows 11 |
-| Microsoft Edge v136.0 |
+| Desktop – Windows 11 |
+| Google Chrome V143.0.7 |
 | SauceDemo |
 
-### Caso de Teste Relacionado
 
-| Caso de Teste |
+
+| Caso de Teste relacionado |
 |---------------|
-| CT04.01 – Informações inválidas para checkout |
+| CT-INF-01  |
 
+| Funcionalidade relacionado |
+|---------------|
+| Carrinho de produto  |
 ### Evidência
 
 | Link |
