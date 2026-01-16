@@ -11,5 +11,5 @@
 
 **Clique na imagem e veja a análise no Miro**
 --
-|[![Veja a análise no MIRO](img/Saucedemo%20-%20Quadro%201.jpg)](https://miro.com/app/board/uXjVGRMnkMc=/?moveToWidget=3458764655632446330&cot=14)|
---
+[![Veja a análise no MIRO](img/Saucedemo%20-%20Quadro%201.jpg)](https://miro.com/app/board/uXjVGRMnkMc=/?moveToWidget=3458764655632446330&cot=14)
+
