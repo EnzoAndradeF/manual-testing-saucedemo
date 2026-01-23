@@ -23,3 +23,11 @@
 * **Jira**: Gestão de defeitos.
 * **Jam**: Captura de evidências técnicas e report de bugs.
 * **Markdown**: Escrita e estruturação da documentação técnica.
+
+### **Contato**
+
+**Enzo Andrade | [LinkedIn](https://www.linkedin.com/in/enzo-andrade-4aa1b9200/) | enzoandradef.08@gmail.com**
+
+[![Enzo Andrade](https://avatars.githubusercontent.com/u/112990187?v=4&s=100)](https://github.com/EnzoAndradeF)
+
+
